@@ -8,3 +8,4 @@ Further usage scenario is integrating this script with crontab
 - 0 0 * * * /full/path/to/script/aws-resource-usage.sh
   (i.e: runs every midnight)
 - save and exit.
+- Output is located at the same path as aws-usage-report.log
