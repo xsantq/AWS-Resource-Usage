@@ -1,0 +1,10 @@
+print S3 Bucket List
+print instance description
+print Lambda Functions
+{
+    "Functions": []
+}
+print IAM user list
+{
+    "Users": []
+}
