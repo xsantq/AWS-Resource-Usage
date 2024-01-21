@@ -1,5 +1,6 @@
 # aws-resource-usage
-This script is developed for to check AWS resource usage
+This script is developed for to check AWS resource usage.
+
 Further usage scenario is integrating this script with crontab
 - Place the script desired locaton on server/workstation etc.
 - Give executable permissions( chmod +x aws-resource-usage.sh)
