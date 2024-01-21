@@ -7,11 +7,12 @@
 # Date: 01/19/24
 # Version: V1
 # Desc: AWS Usage Reporter
-This script list the main resources on AWS
+# This script lists the main resources on AWS
 ###################################
 
 
-
+#exec 2>&1>& aws-usage-report.txt 
+exec 1> >(tee -a "aws-usage-report.log")
 # List S3 buckets
 
 echo "print S3 Bucket List"
